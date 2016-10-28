@@ -18,7 +18,7 @@ Rule files are based on normal regex, with each line containing a `:` defining a
 {"ROOT":[{"sentence":[{"word":["hello"]}," ",{"word":["world"]}]},"\n"]}
 ```
 ## Build
-To build enter the following after making sure mono is installed (bash);
+To build enter the following into a bash terminal (with mono installed);
 ```
 > git clone https://github.com/Threadnaught/TriggerParse
 > cd TriggerParse
