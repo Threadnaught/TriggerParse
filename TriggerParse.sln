@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriggerParse", "TriggerParse\TriggerParse.csproj", "{73C899DA-0B96-4CFB-8546-B949028C8059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriggerParseConsole", "TriggerParseConsole\TriggerParseConsole.csproj", "{5D7C3090-4B7C-447C-9343-47B8D2DF3263}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D7C3090-4B7C-447C-9343-47B8D2DF3263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7C3090-4B7C-447C-9343-47B8D2DF3263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7C3090-4B7C-447C-9343-47B8D2DF3263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7C3090-4B7C-447C-9343-47B8D2DF3263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C899DA-0B96-4CFB-8546-B949028C8059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C899DA-0B96-4CFB-8546-B949028C8059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C899DA-0B96-4CFB-8546-B949028C8059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C899DA-0B96-4CFB-8546-B949028C8059}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
