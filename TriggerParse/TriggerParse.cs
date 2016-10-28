@@ -8,7 +8,7 @@ namespace TriggerParse
 	// LINK STRUCTURE: (HIGH TYPE SURROGATE) (LOW TYPE SURROGATE) (HIGH ID SURROGATE) (LOW ID SURROGATE)
 	public class Tokeniser
 	{
-		static Regex RuleExtractor = new Regex("\\/[a-zA-Z0-9]+\\/");
+		static Regex RuleExtractor = new Regex("(?<!\\\\)\\/[a-zA-Z0-9]+\\/");
 		public Dictionary<string, string> Types = new Dictionary<string, string>(); // type surrogate pairs to type string
 		public Dictionary<string, List<Regex>> Rules = new Dictionary<string, List<Regex>>(); // type surrogate pairs to rule
 		public string Run(string Input, bool compact){
