@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 namespace TriggerParse
 {
 	// LINK STRUCTURE: (HIGH TYPE SURROGATE) (LOW TYPE SURROGATE) (HIGH ID SURROGATE) (LOW ID SURROGATE)
-	public class Tokeniser
+	public class Parser
 	{
 		static Regex RuleExtractor = new Regex("(?<!\\\\)\\/[a-zA-Z0-9]+\\/");
 		public Dictionary<string, string> Types = new Dictionary<string, string>(); // type surrogate pairs to type string

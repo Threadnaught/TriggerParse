@@ -26,7 +26,7 @@ class MainClass
 			} else {
 				path = arg;
 			}
-		Tokeniser t = new Tokeniser ();
+		Parser t = new Parser ();
 		t.LoadRules (System.IO.File.ReadAllText (path));
 		Console.Write (t.Run (s, compact));
 	}
