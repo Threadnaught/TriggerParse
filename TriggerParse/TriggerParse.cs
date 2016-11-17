@@ -51,7 +51,7 @@ namespace TriggerParse
 	class ParsedString{
 		public Dictionary<string, string> CreatedStrings = new Dictionary<string, string>();//id surrogate pair to string
 		public Dictionary<string, string> CreatedStringTypes = new Dictionary<string, string>();//id surrogate pair to type surrogate pair
-		public Tokeniser t;
+		public Parser t;
 		public string root;
 		string AddString(string s, string type){
 			string key;
